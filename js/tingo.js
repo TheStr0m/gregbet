@@ -1,3 +1,6 @@
+
+
+
 var spins;
 var result;
 var canvas = document.getElementById("roulettesquare");
@@ -12,9 +15,20 @@ function clearCanvas(ctx, canvas) {
     canvas.width = 1;
     canvas.width = w;
 }
-  
+
+
+
+$("#testbutton").click(function (e) { 
+    e.preventDefault();
+    
+    
+});
+
+
+
+
 async function test(){
-    for (spins=0; spins<100; spins++){
+    for (spins=0; spins<200; spins++){
         ctx.clearCanvas;
 
         //Selecting winner
@@ -39,7 +53,7 @@ async function test(){
         //Outputs
         ctx.fillRect(0,0,100,100);
         console.log(spins + result + raw);
-        await sleep(10);
+        await sleep(1);
     
     }
 }
