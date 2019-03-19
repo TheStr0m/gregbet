@@ -1,0 +1,33 @@
+.bet-button{
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.bet-card{
+    text-align: center;
+}
+
+
+audio::-webkit-media-controls-panel{
+    background-color: transparent;
+}
+
+.betamt{
+    width: 10px;
+}
+
+#roulettesquare{
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid;
+}
