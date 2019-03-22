@@ -20,7 +20,7 @@ function clearCanvas(ctx, canvas) {
 
 $("#testbutton").click(function (e) { 
     e.preventDefault();
-    
+    test();
     
 });
 
