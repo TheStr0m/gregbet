@@ -31,3 +31,15 @@ audio::-webkit-media-controls-panel{
     right: 0;
     border: 2px solid;
 }
+
+#chat {
+    position: relative;
+    height: 15rem;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    #chat {
+      height: calc(20rem - 43px) !important;
+    }
+  }
