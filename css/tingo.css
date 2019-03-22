@@ -34,12 +34,12 @@ audio::-webkit-media-controls-panel{
 
 #chat {
     position: relative;
-    height: 15rem;
+    height: 19.5rem;
     width: 100%;
   }
   
   @media (min-width: 768px) {
-    #chat {
+    #chart-pie {
       height: calc(20rem - 43px) !important;
     }
   }
